@@ -2,12 +2,96 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Avenir Next Condensed";
+  src: url("../public/fonts/AvenirNextCondensed-MediumItalic.woff2") format("woff2"), url("../public/fonts/AvenirNextCondensed-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Next Condensed";
+  src: url("../public/fonts/AvenirNextCondensed-Bold.woff2") format("woff2"), url("../public/fonts/AvenirNextCondensed-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Next Condensed";
+  src: url("../public/fonts/AvenirNextCondensed-HeavyItalic.woff2") format("woff2"), url("../public/fonts/AvenirNextCondensed-HeavyItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Next Condensed Ultra";
+  src: url("../public/fonts/AvenirNextCondensed-UltraLight.woff2") format("woff2"), url("../public/fonts/AvenirNextCondensed-UltraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Next Condensed";
+  src: url("../public/fonts/AvenirNextCondensed-Heavy.woff2") format("woff2"), url("../public/fonts/AvenirNextCondensed-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Next Condensed";
+  src: url("../public/fonts/AvenirNextCondensed-BoldItalic.woff2") format("woff2"), url("../public/fonts/AvenirNextCondensed-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Next Condensed";
+  src: url("../public/fonts/AvenirNextCondensed-Medium.woff2") format("woff2"), url("../public/fonts/AvenirNextCondensed-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Next Condensed Demi";
+  src: url("../public/fonts/AvenirNextCondensed-DemiBoldItalic.woff2") format("woff2"), url("../public/fonts/AvenirNextCondensed-DemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Next Condensed Ultra";
+  src: url("../public/fonts/AvenirNextCondensed-UltraLightItalic.woff2") format("woff2"), url("../public/fonts/AvenirNextCondensed-UltraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Next Condensed";
+  src: url("../public/fonts/AvenirNextCondensed-Regular.woff2") format("woff2"), url("../public/fonts/AvenirNextCondensed-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Next Condensed";
+  src: url("../public/fonts/AvenirNextCondensed-Italic.woff2") format("woff2"), url("../public/fonts/AvenirNextCondensed-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Avenir Next Condensed Demi";
+  src: url("../public/fonts/AvenirNextCondensed-DemiBold.woff2") format("woff2"), url("../public/fonts/AvenirNextCondensed-DemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Avenir Next Condensed", serif;
 }
 
 a {

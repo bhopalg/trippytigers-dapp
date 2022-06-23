@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 import Image from "next/image";
 
 const Home: NextPage = () => {
-  return (
+    return (
     <div>
       <Head>
         <title>Create Next App</title>
@@ -13,8 +13,12 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles['mint-page-main']}>
-          <div>
-              {/*<Image src={'/images/clouds.svg'} alt={'clouds'} layout={'fill'}/>*/}
+          <div className={styles['nft-table-container']}>
+              <Image src={'/images/nft-table.svg'} alt={'nft-table'} layout='fill' objectFit='contain'/>
+
+              <div className={`${styles['content-container']}`}>
+                  <h1 className={`${styles['content-title']} text-white text-center`}>How many NFTs do you want to mint?</h1>
+              </div>
           </div>
       </main>
 

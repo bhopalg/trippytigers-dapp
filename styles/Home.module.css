@@ -4,3 +4,43 @@
     position: relative;
     background: url('../public/images/clouds.svg') repeat center top 50px;
 }
+
+.nft-table-container {
+    max-height: 680px;
+    position: absolute;
+    display: block;
+    height: 100%;
+    max-width: 680px;
+    width: 100%;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 110px;
+}
+
+.content-title {
+    font-size: 35px;
+    -webkit-marquee-increment: 0vw;
+    margin-top: 0;
+    margin-bottom: 1vw;
+    font-family: "Avenir Next Condensed", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .content-title {
+        font-size: 25px;
+    }
+
+    .content-container {
+        padding-top: 175px;
+    }
+}
