@@ -57,12 +57,31 @@
     display: block;
     z-index: 2;
     position: relative;
-    padding: 11% 0;
+    padding: 7% 0;
     font-family: "Avenir Next Condensed", sans-serif;
     font-weight: bold;
-    font-size: 1.7em;
+    font-size: 2em;
     color: #da813d;
 }
+
+.price-container {
+    max-width: 620px;
+}
+
+.price, .blockchain, .total {
+    font-family: "Avenir Next Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.price, .blockchain {
+    color: #da813d;
+}
+
+.total {
+    color: #ffffff;
+}
+
 
 @media (max-width: 768px) {
     .content-title {

@@ -43,6 +43,13 @@ const Home: NextPage = () => {
                           ))}
                       </ul>
                   </div>
+                  <div className={`${styles['price-container']} mx-auto px-4 sm:px-6 lg:px-8`}>
+                      <div className={'flex flex-row justify-center mt-8 gap-24'}>
+                          <h2 className={styles['price']}>PRICE:</h2>
+                          <h2 className={styles['total']}>X</h2>
+                          <h2 className={styles['blockchain']}>ETH</h2>
+                      </div>
+                  </div>
               </div>
           </div>
       </main>
