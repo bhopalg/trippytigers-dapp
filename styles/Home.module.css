@@ -82,6 +82,15 @@
     color: #ffffff;
 }
 
+.mint-btn {
+    max-width: 340px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.selected-quantity {
+    color: #ffffff;
+}
 
 @media (max-width: 768px) {
     .content-title {
