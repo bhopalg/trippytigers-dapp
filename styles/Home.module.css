@@ -94,10 +94,22 @@
 
 @media (max-width: 768px) {
     .content-title {
-        font-size: 25px;
+        font-size: 4vw;
     }
 
     .content-container {
-        padding-top: 175px;
+        padding-top: 51%;
+    }
+
+    .mint-btn {
+        max-width: 140px;
+    }
+
+    .quantity-box {
+        max-width: 80px;
+    }
+
+    .quantity {
+        font-size: 1.3em;
     }
 }

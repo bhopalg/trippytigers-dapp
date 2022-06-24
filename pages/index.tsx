@@ -24,7 +24,7 @@ const Home: NextPage = () => {
               <div className={`${styles['content-container']}`}>
                   <h1 className={`${styles['content-title']} text-white text-center`}>How many NFTs do you want to mint?</h1>
                   <div className={`${styles['quantity-container']} mx-auto px-4 sm:px-6 lg:px-8`}>
-                      <ul role={'list'} className={'flex flex-col xl:flex-row'}>
+                      <ul role={'list'} className={'flex flex-row'}>
                           {[1,2,3].map((li: number) => (
                               <li key={li} className={'basis-full cursor-pointer'} onClick={() => setQuantity(li)}>
                                   <div className={`${styles['quantity-box']}`}>
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
                               </li>
                           ))}
                       </ul>
-                      <ul role={'list'} className={'flex flex-col xl:flex-row mt-5'}>
+                      <ul role={'list'} className={'flex flex-row mt-5'}>
                           {[4,5].map((li: number) => (
                               <li key={li} className={'basis-full cursor-pointer'} onClick={() => setQuantity(li)}>
                                   <div className={`${styles['quantity-box']}`}>
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                       </ul>
                   </div>
                   <div className={`${styles['price-container']} mx-auto px-4 sm:px-6 lg:px-8`}>
-                      <div className={'flex flex-row justify-center mt-8 gap-24'}>
+                      <div className={'flex flex-row justify-center mt-8 gap-10 xl:gap-24'}>
                           <h2 className={styles['price']}>PRICE:</h2>
                           <h2 className={styles['total']}>{mintPrice * quantity}</h2>
                           <h2 className={styles['blockchain']}>ETH</h2>
