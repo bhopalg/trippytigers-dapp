@@ -45,14 +45,21 @@ const Home: NextPage = () => {
                           ))}
                       </ul>
                   </div>
+                  <div className={`${styles['total-amount-container']} mx-auto px-4 sm:px-6 lg:px-8`}>
+                      <div className={'flex flex-row justify-center mt-2 xl:mt-8 gap-10 xl:gap-24'}>
+                          <h2 className={styles['price']}>X</h2>
+                          <h2 className={styles['total']}>/</h2>
+                          <h2 className={styles['blockchain']}>SUPPLY</h2>
+                      </div>
+                  </div>
                   <div className={`${styles['price-container']} mx-auto px-4 sm:px-6 lg:px-8`}>
-                      <div className={'flex flex-row justify-center mt-8 gap-10 xl:gap-24'}>
+                      <div className={'flex flex-row justify-center mt-2 xl:mt-8 gap-10 xl:gap-24'}>
                           <h2 className={styles['price']}>PRICE:</h2>
-                          <h2 className={styles['total']}>{mintPrice * quantity}</h2>
+                          <h2 className={styles['total']}>{(mintPrice * quantity).toFixed(2)}</h2>
                           <h2 className={styles['blockchain']}>ETH</h2>
                       </div>
                   </div>
-                  <div className={`${styles['price-container']} mx-auto px-4 sm:px-6 lg:px-8 flex justify-center pt-5`}>
+                  <div className={`${styles['price-container']} mx-auto px-4 sm:px-6 lg:px-8 flex justify-center xl:pt-5`}>
                       <img src={'/images/nft-mint-btn.svg'} alt={'mint-btn'} className={styles['mint-btn']}/>
                   </div>
               </div>
