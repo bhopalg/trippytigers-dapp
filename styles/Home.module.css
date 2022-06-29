@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100%;
     position: relative;
-    background: url('../public/images/clouds.svg') repeat center top 50px;
+    background: url('../public/images/background_MINT_page.jpg') repeat center;
 }
 
 .nft-table-container {
@@ -92,13 +92,13 @@
     color: #ffffff;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 650px) and (max-width: 768px) {
     .content-title {
         font-size: 4vw;
     }
 
     .content-container {
-        padding-top: 48%;
+        padding-top: 15%;
     }
 
     .mint-btn {
@@ -111,5 +111,61 @@
 
     .quantity {
         font-size: 1.3em;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 650px) {
+    .content-container {
+        padding-top: 25%;
+    }
+
+    .content-title {
+        font-size: 27px;
+    }
+
+    .mint-btn {
+        max-width: 240px;
+    }
+
+    .quantity-box{
+        max-width: 90px;
+    }
+
+    .quantity {
+        font-size: 1.5em;
+    }
+
+    .price-container {
+        margin-top: 22px;
+    }
+}
+
+@media (max-width: 390px) {
+    .mint-btn {
+        max-width: 150px;
+    }
+
+    .price-container {
+        margin-top: 10px;
+    }
+
+    .price, .blockchain, .total {
+        font-size: 1.5em;
+    }
+
+    .quantity-container {
+        max-width: 340px;
+    }
+
+    .quantity-box {
+        max-width: 60px;
+    }
+
+    .content-container {
+        padding-top: 53%;
+    }
+
+    .content-title {
+        font-size: 20px;
     }
 }

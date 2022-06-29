@@ -34,7 +34,7 @@ const Home: NextPage = () => {
                               </li>
                           ))}
                       </ul>
-                      <ul role={'list'} className={'flex flex-row mt-5'}>
+                      <ul role={'list'} className={'flex flex-row xlmt-5'}>
                           {[4,5].map((li: number) => (
                               <li key={li} className={'basis-full cursor-pointer'} onClick={() => setQuantity(li)}>
                                   <div className={`${styles['quantity-box']}`}>
