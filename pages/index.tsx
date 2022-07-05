@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 
       <main className={`${styles['mint-page-main']} flex justify-center items-center`}>
           <div className={styles['nft-table-container']}>
-              <Image src={'/images/nft-table.svg'} alt={'nft-table'} layout='fill' objectFit='contain'/>
+              <Image src={'/images/nft-table.png'} alt={'nft-table'} layout='fill' objectFit='contain'/>
 
               <div className={`${styles['content-container']}`}>
                   <h1 className={`${styles['content-title']} text-white text-center`}>How many NFTs do you want to mint?</h1>
